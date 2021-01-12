@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://sheltered-gorge-30916.herokuapp.com/v1/task/getTasks/v1/task/';
+  var apiRoot = 'https://sheltered-gorge-30916.herokuapp.com/v1/task/getTasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
